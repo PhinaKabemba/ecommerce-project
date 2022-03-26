@@ -1,5 +1,6 @@
 package com.phinakabemba.ecommerce.entity;
 
+import com.phinakabemba.ecommerce.entity.ProductCategory;
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
@@ -9,7 +10,7 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 @Entity
-@Table(name = "product")
+@Table(name="product")
 @Data
 public class Product {
 

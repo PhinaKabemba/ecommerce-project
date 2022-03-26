@@ -1,16 +1,15 @@
 package com.phinakabemba.ecommerce.entity;
 
-
+import com.phinakabemba.ecommerce.entity.Product;
 import lombok.Getter;
 import lombok.Setter;
-
 
 import javax.persistence.*;
 import java.util.Set;
 
 @Entity
-@Table(name = "product_category")
-// @Data --known bug
+@Table(name="product_category")
+// @Data -- known bug
 @Getter
 @Setter
 public class ProductCategory {
@@ -27,3 +26,10 @@ public class ProductCategory {
     private Set<Product> products;
 
 }
+
+
+
+
+
+
+
